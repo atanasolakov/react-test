@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce786c8f-f106-4cf6-9e58-c975cc9aad53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/contactus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/contactus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/about.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <workItem from="1692172496615" duration="2592000" />
       <workItem from="1692175219754" duration="7000" />
       <workItem from="1692175227790" duration="7836000" />
-      <workItem from="1692188164014" duration="23781000" />
+      <workItem from="1692188164014" duration="27472000" />
     </task>
     <servers />
   </component>

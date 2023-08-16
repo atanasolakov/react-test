@@ -1,13 +1,17 @@
 import React from 'react';
 import GalleryBoxIcon from '../Components/GalleryBoxIcon';
-import {FaMusic, FaDollarSign, FaProductHunt} from 'react-icons/fa';
+import { FaDollarSign, FaProductHunt } from 'react-icons/fa';
 import gallery from './gallery.scss'
 import {MdHighQuality} from "react-icons/md";
 import {TbTruckDelivery} from "react-icons/tb";
 import {BsPersonCheck} from "react-icons/bs";
 import {GrSecure} from "react-icons/gr";
+import {useNavigate} from "react-router-dom";
 
 const Gallery = () => {
+
+    const navigate = useNavigate();
+
     const galleryItems = [
         { icon: <FaDollarSign />, title: 'Best Prices', id: 1 },
         { icon: <MdHighQuality />, title: 'Proven Quality', id: 2 },
@@ -18,7 +22,7 @@ const Gallery = () => {
     ];
 
     return (
-        <div className="gallery-container">
+        <div className="gallery-container" onClick={() => navigate('/')}>
             {galleryItems.map((item) => (
                 <GalleryBoxIcon key={item.id} icon={item.icon} title={item.title} />
             ))}

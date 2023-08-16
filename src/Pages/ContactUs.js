@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import contactus from './contactus.scss'
+import {useNavigate} from "react-router-dom";
 
 const ContactUs = () => {
+
+    const navigate = useNavigate()
+
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
@@ -13,7 +17,7 @@ const ContactUs = () => {
 
     return (
             <div className="contact-container">
-                <h1>Contact Us</h1>
+                <h1 onClick={() => navigate('/')}>Contact Us</h1>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="email">Email:</label>
