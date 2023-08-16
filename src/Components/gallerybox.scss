@@ -1,0 +1,33 @@
+.gallery-box {
+  text-align: center;
+  cursor: pointer;
+
+  img {
+    max-width: 12rem;
+    height: 10rem;
+    border-radius: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    img {
+      max-width: 8rem;
+      height: 5rem;
+    }
+    .gallery-text {
+     font-size: 10px;
+    }
+  }
+ .gallery-text {
+   color: #fff;
+   background-color: rgba(0, 0, 0, 0.7);
+   border-radius: 10px;
+ }
+  span {
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+  }
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+

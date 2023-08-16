@@ -1,0 +1,26 @@
+.about-container {
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

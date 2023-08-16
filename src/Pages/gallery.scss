@@ -1,0 +1,22 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 10px;
+  min-height: 30vh;
+  padding: 20px;
+  background: linear-gradient(-45deg, #ee82ee, #87ceeb, #ff69b4, #98fb98);
+  background-size: 400% 400%;
+  animation: gradient 15s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,38 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: url('../Assets/banner-image.jpg') center/cover no-repeat;
+  min-height: 60vh;
+
+  .text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+
+  .gallery-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    padding: 10px;
+
+    .text {
+      font-size: 16px;
+    }
+
+    .gallery-boxes {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
