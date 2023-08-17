@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import fakestore from './fakestore.scss'
 import {RiArrowGoBackFill, RiDeleteBin6Line} from "react-icons/ri";
+import {useNavigate} from "react-router-dom";
+import {BiArrowBack, BiSolidArrowToBottom} from "react-icons/bi";
+import {BsBack} from "react-icons/bs";
 const App = () => {
     const [products, setProducts] = useState([]);
     const [newProduct, setNewProduct] = useState({
@@ -62,10 +65,12 @@ const App = () => {
         ? [...filteredProducts].sort((a, b) => a.price - b.price)
         : [...filteredProducts].sort((a, b) => b.price - a.price);
 
+    const navigate = useNavigate();
+
     return (
         <div className={'container'}>
             <div className={'title-container'}>
-                <RiArrowGoBackFill/>
+              <span><RiArrowGoBackFill fontSize={40} onClick={() => navigate('/')}/></span>
                 <h2>Our Product Page</h2>
             </div>
             <div>
