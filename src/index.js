@@ -7,13 +7,16 @@ import Home from "./Pages/Home";
 import Gallery from "./Pages/Gallery";
 import ContactUs from "./Pages/ContactUs";
 import About from "./Pages/About";
+import FakeStore from "./Pages/FakeStore";
 
 const router = createBrowserRouter([
     { path: '/', element : <App /> },
     { path: '/home', element : <Home /> },
     { path: '/gallery', element : <Gallery /> },
     { path: '/contact', element : <ContactUs /> },
-    { path: '/about', element : <About /> }
+    { path: '/about', element : <About /> },
+    { path: '/fakestore', element : <FakeStore /> },
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
